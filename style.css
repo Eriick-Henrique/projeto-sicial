@@ -43,3 +43,26 @@ iframe#tela {
     height: 471px;
    
 }
+
+section#rede-social {
+   text-align: right;
+
+    
+
+}
+
+section#rede-social img {
+    border-radius: 50%;
+    width: 70px;
+    margin: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    
+}
+
+section#rede-social img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.658);
+    transform: translate(-10px, -10px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.620);
+    transition: transform .5s, border 1s;
+
+}
